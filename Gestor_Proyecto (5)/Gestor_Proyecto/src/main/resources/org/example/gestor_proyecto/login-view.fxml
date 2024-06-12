@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestor_proyecto.controller.LoginController">
+   <children>
+      <ImageView fitHeight="170.0" fitWidth="225.0" layoutX="119.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Tepsecurilogo.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="104.0" layoutY="241.0" prefHeight="110.0" prefWidth="247.0">
+         <children>
+            <Label text="Usuario:" textFill="#fff421">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="texin_Uss" />
+            <Label text="Contraseña:" textFill="#fff421">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="texin_Pass" prefWidth="170.0" />
+         </children>
+      </VBox>
+      <Label layoutX="139.0" layoutY="205.0" text="Inicio de sesión" textFill="#fff421">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_admin" layoutX="178.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#btn_admin" prefHeight="32.0" prefWidth="100.0" text="Ingresar">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="btn_registro" layoutX="186.0" layoutY="423.0" mnemonicParsing="false" onMouseClicked="#btn_registro" text="Registrarse" />
+   </children>
+</AnchorPane>

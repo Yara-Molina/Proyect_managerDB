@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestor_proyecto.controller.RegistroController">
+   <children>
+      <Label layoutX="185.0" layoutY="27.0" text="Nuevo Registro" textFill="#fff421">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <VBox layoutX="186.0" layoutY="91.0" prefHeight="169.0" prefWidth="230.0">
+         <children>
+            <Label text="Usuario:" textFill="#fff421">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="texin_newUss" />
+            <Label text="Contraseña:" textFill="#fff421">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="texin_newPass" />
+            <Label text="Repetir Contraseña:" textFill="#fff421">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="texin_pass2" />
+         </children>
+      </VBox>
+      <Button fx:id="btn_back" layoutX="518.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#btn_back" text="Salir" />
+      <Button fx:id="btn_admin" layoutX="250.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#btn_admin" prefHeight="32.0" prefWidth="100.0" text="Registrar">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </children>
+</AnchorPane>

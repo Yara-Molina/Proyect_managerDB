@@ -1,0 +1,54 @@
+Button {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+Button:hover {
+    -fx-background-color: #d1c134;
+    -fx-font-size: 16px;
+
+}
+
+Button:pressed {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #0200fd;
+    -fx-font-weight: bold;
+}
+
+TextField {
+    -fx-border-color: #3B92EB;
+    -fx-border-radius: 10px;
+    -fx-border-radius: 10 10 10 10;
+}
+
+TextField:focused{
+}
+
+.text-user{
+    -fx-border-radius: 50px;
+}
+
+
+#TareaTableView{
+    -fx-background-color: #8cbdbb;
+}
+
+.label{
+    -fx-font-family: "Berlin Sans FB Demi";
+}
+
+.combo-box{
+    -fx-background-color: #fff421;
+    -fx-font-size: 16px;
+}
+
+AnchorPane{
+    -fx-background-color: #212120;
+}
